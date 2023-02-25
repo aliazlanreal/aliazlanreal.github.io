@@ -18,3 +18,18 @@
     position: fixed;
     display: none;
   }
+
+  #top {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 37px),50% 100%,0 calc(100% - 37px));
+
+    
+    
+}
+
+#bottom {
+    clip-path: polygon(0 0,50% 37px,100% 0,100% 100%,0 100%);
+    margin-top: -40px;
+    background-color: white;
+    
+    width: 100%;
+  }
